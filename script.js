@@ -8,7 +8,7 @@ document.getElementById("btn").addEventListener("click",function(event){
 	
 	if(!age || !name)
 	{
-		alert("Please enter valid details.");
+		alert("Please enter valid details");
 		return;
 	}
 	age = parseInt(age,10);
